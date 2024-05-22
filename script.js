@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
             likeCountElement.textContent = likeCount;
         });
         
-        let commentButton = newPost.querySelector('.plain');
+        let commentButton = newPost.querySelector('.comment123');
         commentButton.addEventListener('click', function() {
             let commentText = newPost.querySelector('#comment').value;
             let commentSave = document.createElement("div");
